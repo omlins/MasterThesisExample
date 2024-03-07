@@ -1,3 +1,5 @@
+# RUN AS FOLLOWS: julia --threads=12 perftest_update_halo.jl
+
 push!(LOAD_PATH, "../src")
 using Test
 using ImplicitGlobalGrid; GG = ImplicitGlobalGrid
