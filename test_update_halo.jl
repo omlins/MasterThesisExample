@@ -1,3 +1,5 @@
+# RUN AS FOLLOWS: julia test_update_halo.jl 
+
 # NOTE: All tests of this file can be run with any number of processes.
 # Nearly all of the functionality can however be verified with one single process
 # (thanks to the usage of periodic boundaries in most of the full halo update tests).
